@@ -8,19 +8,7 @@ pub struct XIVAPIBuilder {
     pub language: String,
 }
 
-/// The main struct for interacting with the XIVAPI.
-/// ```rust
-/// use xivapi_rust::XIVAPI;
-///
-/// fn main() {
-///     let api_key = "your_api_key".to_string();
-///     let language = Language::CN;
-///     let xivapi_client = XIVAPIBuilder::new(api_key, CN);
-///     let params = format!("name={}&server={}", "NKracy", "Aether");
-///     xivapi_client.send_request(WAKINGSANDS_URL， )
-/// }
-/// ```
-/// This will help you get started with the XIVAPI.
+
 impl XIVAPIBuilder {
     pub fn new(api_key: String) -> Self {
         Self {
