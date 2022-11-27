@@ -26,11 +26,11 @@ impl Language {
 impl std::fmt::Display for Language {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         match self {
-            Language::EN => write!(f, "en"),
-            Language::JA => write!(f, "ja"),
-            Language::DE => write!(f, "de"),
-            Language::FR => write!(f, "fr"),
-            Language::CN => write!(f, "cn"),
+            Language::EN => write!(f, "EN"),
+            Language::JA => write!(f, "JA"),
+            Language::DE => write!(f, "DE"),
+            Language::FR => write!(f, "FR"),
+            Language::CN => write!(f, "CN"),
         }
     }
 }
